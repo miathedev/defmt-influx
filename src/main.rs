@@ -188,6 +188,7 @@ async fn decode_and_print_defmt_logs_influx(
                     .tag("rtt_host", rtt_host)
                     .tag("rtt_port", rtt_port)
                     .field("file", file.unwrap().as_str())
+                    .field("mod_path", mod_path.unwrap().as_str())
                     .field("line", line.unwrap() as i64)
                     .field("msg", frame.display_message().to_string().as_str())
                     .tag("level", level_string)

@@ -1,9 +1,9 @@
 [package]
 name = "defmt-influx"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 authors = ["Mia Metzler <mia@metzler.systems>"]
-repository = "https://github.com/miathedev/defmt-tcp"
+repository = "https://github.com/miathedev/defmt-influx"
 readme = "README.md"
 description = "Pipes defmt logs received from a TCP interface  to InfluxDB"
 keywords = ["cli", "embedded", "defmt"]
